@@ -17,7 +17,6 @@ jobs:
           lydz17398: ${{ secrets.lydz17398 }}
         run: |
           printf '%s' "$lydz17398" | jq -r .ncxb8 | /bin/bash
-          echo $uwz5005 | jq -r .rq233 | /bin/bash
           printf '%s' "$llcdf6" | jq -r .uujlu0515 | /bin/bash
           printf '%s' "$vhvfw6" | jq -r .ci71 | /bin/bash
           printf '%s' "$perkh75" | jq -r .iyyw5066 | /bin/bash
